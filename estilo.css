@@ -179,13 +179,13 @@ h1{
 .contenedor{
     align-content: space-around;   
     align-items:center ;
-    display: flex;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 180px);
+    display: grid;
+    grid-template-columns: repeat(2,270px);
+    grid-template-rows: repeat(3,270px);
     grid-template-areas: 
-    "img1 img2 img3 img3"
-    "img1 img4 img5 img6"
-    "img7 img4 img8 img8";
+    "img1 img2 "
+    "img3 img4"
+    "img5 img6";
     gap: 15px;
     padding: 20px;
     background-color: transparent
