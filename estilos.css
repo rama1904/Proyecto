@@ -52,7 +52,7 @@ ul li {
   height: 100vh;
   width: 100%;
   background-color: rgba(255, 0, 0, 0.404);
-  background-image: url(./img/colorful-painting-with-word-rainbow-it.jpg);
+  background-image: url(./img/mitchelwillemjacobanneveldtGHB8SzfSKIwunsplash.jpg);
   background-size: cover;
   background-position: right;
 }
@@ -140,8 +140,8 @@ footer {
 }
 
 body {
-  background-image: url(./img/colorful-painting-with-word-rainbow-it.jpg);
-  background-repeat: repeat;
+  background-image: url(./img/mitchelwillemjacobanneveldtGHB8SzfSKIwunsplash.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -289,3 +289,24 @@ h1 {
   margin-left: 35%;
   margin-top: 200px;
 }/*# sourceMappingURL=estilos.css.map */
+#servicios {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+ padding-top: px;
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+  float: none;
+}
+.servicios-lista {
+  list-style-type: none; 
+  padding: 0;
+  }
+  .servicio-item {
+    background-color: #f1f1f1;
+    margin: 10px 0;
+    padding: 15px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    }
