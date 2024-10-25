@@ -9,7 +9,7 @@
   
   html {
     position: relative;
-    min-height: 100%;
+    min-height: 170%;
   }
   
   header {
@@ -47,14 +47,6 @@
     text-decoration: none;
     color: antiquewhite;
   }
- 
-  .background__image {
-    height: 100vh;
-    width: 100%;
-    background-color: rgba(255, 0, 0, 0.404);
-    background-image: url(./img/mitchelwillemjacobanneveldtGHB8SzfSKIwunsplash.jpg);
-    background-position: right;
-  }
   
   .background__image1 h1 {
     color: #fff;
@@ -78,13 +70,9 @@
   }
   
   .call {
-    /* color: rgb(255, 0, 0); */
-    background-color: rgb(2, 2, 2);
-    border: 3px solid;
     color: rgb(0, 0, 0);
-    padding: 20px;
-    float: right;
-    margin: 80px;
+    padding: 30px;
+   
   }
 
   .call {
@@ -145,6 +133,7 @@
   
   body {
     background-image: url(./img/mitchelwillemjacobanneveldtGHB8SzfSKIwunsplash.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
   }
   
@@ -181,6 +170,9 @@
   
   h1 {
     color: #fff;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 24px;
   }
 
   .contenedor {
@@ -280,28 +272,28 @@
     color: antiquewhite;
   }
   
-  .img-fluid {
-    width: 50%;
-    height: 50%;
-  
-    &:hover {
-      scale: 1.2;
-    }
-  }
+  // .img-fluid {
+  //   width: 100%;
+  //   height: 100%;
+    
+  //   &:hover {
+  //     scale: 1.2;
+  //   }
+  // } 
 
   .centrado{
-    margin-left:35%;
+    margin-left:30%;
     margin-top: 200px;
 }
 #servicios {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
- padding-top: px;
   max-width: 600px;
   margin: 40px auto;
   text-align: center;
  float: none;
+ margin-top: 100px;
 }
 .servicios-lista {
   list-style-type: none;
@@ -313,4 +305,184 @@
   padding: 15px;
   border-radius: 5px;
   transition: background-color 0.3s;
+}
+
+.iconos{
+  margin: 10px;
+}
+
+.informacion-empresa {
+font-size:24px;
+background-color:  transparent;
+
+}
+
+.titulo-filosofia{
+  text-align: left;
+  background-color: transparent;
+  color: #f1f1f1;
+}
+
+.titulo-equipo{
+  font-size:30px;
+text-decoration: underline;
+color: #ffffff;
+margin:10px;
+  padding:10px;
+}
+
+.texto-equipo{
+  font-size:20px;
+  color:white;
+  text-align: left;
+  margin:10px;
+  padding:10px;
+}
+
+.texto-dividir{
+color: rgb(241, 60, 211); 
+ padding: 20px;
+text-align: center;
+  font-size: 28px;
+  font-weight: bold; 
+  margin-top: 30px;
+  position: relative;
+  
+}
+.titulo-prima{
+  font-size:2em;
+  text-decoration: underline;
+  color: #ffffff;
+  margin:10px;
+  padding:10px;
+  
+
+}
+.textos-materia{
+  color: #f1f1f1;
+  font-size: 20px;
+  margin:10px;
+  padding:10px;
+}
+
+
+.product1{
+ grid-area: pro1;
+ background-image: url(./img/5.-Linea-hiflex-plus-II-1-1-300x300.jpg);
+  height: 250px;
+    width: 250px;
+    margin: 10px;
+
+}
+
+.product2{
+  grid-area: pro2;
+  background-image: url(./img/6.-Tintas-especiales-300x224.jpg);
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+}
+
+.product3{
+  grid-area: pro3;
+  background-image: url(./img/7.-Barnices-300x300.jpg);
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+}
+
+
+.product4{
+  grid-area: pro4;
+  background-image: url(./img/linea-LACAS-Y-PINTURAS-300x300.jpg);
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+}
+
+.pro{
+  border: 2px solid #000;
+  border-radius: 7px;
+  background-size: cover;
+ 
+
+}
+
+.contenedor-pro{
+  display: flex;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, 270px);
+  grid-template-rows: repeat(3, 270px);
+  grid-template-areas: "img1 img2 " "img3 img4" "img5 img6";
+  gap: 15px;
+  padding: 60px;
+  background-color: transparent;
+  flex-wrap: wrap;
+}
+.img-centrada{
+  margin-left:30%;
+    margin-top: 200px;
+}
+
+
+@media (max-width: 768px) {
+  footer {
+      padding: 15px;
+  }
+
+  footer h3 {
+      font-size: 18px;
+  }
+
+  footer p {
+      font-size: 14px;
+  }
+
+  footer input {
+      width: 80%;
+      padding: 10px;
+      margin: 10px 0;
+  }
+
+  footer button {
+      padding: 10px 15px;
+  }
+
+}
+
+
+
+@media (max-width: 480px) {
+  footer {
+      padding: 10px;
+  }
+
+  footer h3 {
+      font-size: 16px;
+  }
+
+  footer p {
+      font-size: 12px;
+  }
+
+  footer input {
+      width: 90%;
+  }
+.container-fluid{
+  z-index: 10;
+}
+.parrafo-lenicor{
+  text-align: center;
+  
+}
+.call{
+  width:100%;
+  margin-top:-50px;
+}
+.img-centrada{
+  width:70%;
+  height:70%;
+  margin-top: 100px;
+  margin-left:50px ;
+}
 }
